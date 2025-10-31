@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Museum of Me! </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <span class="logo-sml">Museum<br>of</span> 
+            <span class="logo-lrg">ME</span></a>
+        <nav>
+            <ul class="primary-nav">
+                <li><a href="current.html">currents stats</a></li>
+                <li><a href="archive.html">archive</a></li>
+                <li><a href="logs.html">logs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="purple">
+            <div class="wrapper">
+                <h2> Commonly Used Items</h2>
+                <div class="grid-half">
+                    <div>
+                        <model-viewer alt = "Record Player" src ="assets/RecordPlayer.glb" 
+                        camera-controls auto-rotate>
+                        </model-viewer>
+                    </div>
+                    <div>
+                        <p> Description of some items</p>
+                        <a href="#" class="Button">Button</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="yellow">
+            <div class="wrapper">
+                <h2>People I See</h2>
+                <div class="grid-column-4">
+                    <div>
+                        <img src="images/Elizabeth.png" alt="Elizabeth Avatar">
+                        <p>Elizabeth</p>
+                    </div>
+                    <div>
+                        <img src="images/Ty.png" alt="Ty Avatar">
+                        <p>Ty</p>
+                    </div>
+                    <div>
+                        <img src="images/Elisey.png" alt="Elisey Avatar">
+                        <p>Elisey</p>
+                    </div>
+                    <div>
+                        <img src="images/Me.png" alt="Me Avatar">
+                        <p>Myself</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pink">
+            <div class="wrapper">
+                <h2>Places I Visit</h2>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1oRpOGslY_Q1tVQKPWk7GcNIGOG_Jguw&ehbc=2E312F" width="640" height="480"></iframe>
+            </div>
+        </section>
+        <section class="green">
+            <div class="wrapper">
+                <h2>Things I Hear</h2>
+                <div class="grid-column-3">
+                    <div>
+                        <q>Cat Meowing</q>
+                        <audio controls>
+                            <source src="assets/cat_meow.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div>
+                        <q>Cat Meowing</q>
+                        <audio controls>
+                            <source src="assets/cat_meow.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div>
+                        <q>Cat Meowing</q>
+                        <audio controls>
+                            <source src="assets/cat_meow.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
